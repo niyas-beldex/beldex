@@ -88,7 +88,7 @@ namespace cryptonote {
   //-----------------------------------------------------------------------------------------------
   bool get_block_reward(size_t median_weight, size_t current_block_weight, uint64_t already_generated_coins, uint64_t &reward, uint8_t version) {
     //Premine Coins
-    if(already_generated_coins <(uint64_t)1400000000000000000){
+    if( already_generated_coins == 0 ){
       reward  = 1400000000000000000;
       return true;
     }

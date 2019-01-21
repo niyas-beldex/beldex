@@ -195,7 +195,7 @@ int main(int argc, char const * argv[])
     // print genesis tx
     if (command_line::get_arg(vm, daemon_args::arg_print_genesis_tx_hex))
     {
-       const cryptonote::network_type nettype = cryptonote::MAINNET;
+       const cryptonote::network_type nettype = cryptonote::TESTNET;
        print_genesis_tx_hex(nettype);
         return false;
     }

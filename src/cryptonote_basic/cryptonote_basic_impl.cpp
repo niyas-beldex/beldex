@@ -95,23 +95,31 @@ namespace cryptonote {
 
     static_assert(DIFFICULTY_TARGET_V2%60==0&&DIFFICULTY_TARGET_V1%60==0,"difficulty targets must be a multiple of 60");
     const int target = version < 2 ? DIFFICULTY_TARGET_V1 : DIFFICULTY_TARGET_V2;
+     std::cout<<already_generated_coins<<"\t---already generated coins --- \n";
+      std::cout<<target<<"\t---target --- \n";
+
     const int target_minutes = target / 60;
+     std::cout<<target_minutes<<"\t---target_minutes --- \n";
+
     const int emission_speed_factor = EMISSION_SPEED_FACTOR_PER_MINUTE - (target_minutes-1);
 
     uint64_t base_reward = (MONEY_SUPPLY - already_generated_coins) >> emission_speed_factor;
+   std::cout<<base_reward<<"\t---base_reward --- \n";
     if (base_reward < FINAL_SUBSIDY_PER_MINUTE*target_minutes)
     {
       base_reward = FINAL_SUBSIDY_PER_MINUTE*target_minutes;
+      std::cout<<base_reward<<"\t---base_reward --- inside if \n";
     }
 
     
     uint64_t full_reward_zone = get_min_block_weight(version);
-
+std::cout<<full_reward_zone<<"\t---full_reward_zone --- \n"<<median_weight<<"\tmedian_weight\n";
     //make it soft
     if (median_weight < full_reward_zone) {
       median_weight = full_reward_zone;
     }
 
+std::cout<<current_block_weight<<"\t---current_block_weight --- \n"<<median_weight<<"\tmedian_weight\n";
     if (current_block_weight <= median_weight) {
       reward = base_reward;
       return true;

@@ -98,6 +98,11 @@ namespace cryptonote {
       base_reward = FINAL_SUBSIDY_PER_MINUTE*target_minutes;
     }
 
+    //Premine Coins
+    if(already_generated_coins <(uint64_t)1400000000000000000){
+      base_reward  = 1400000000000000000;
+    }
+
     uint64_t full_reward_zone = get_min_block_weight(version);
 
     //make it soft

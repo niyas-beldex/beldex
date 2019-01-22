@@ -182,7 +182,7 @@ namespace config
         0x14 ,0x30, 0xF5, 0x74 , 0x69, 0x14 , 0x41, 0x61, 0x17, 0x31, 0xB9, 0x82, 0x26, 0xA7, 0xA1, 0x14
       } }; // Bender's daydream
     std::string const GENESIS_TX = "";
-    uint32_t const GENESIS_NONCE = 113367;
+    uint32_t const GENESIS_NONCE = 113377;
   }
 
   namespace stagenet

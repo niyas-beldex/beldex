@@ -372,4 +372,6 @@ void BlockchainDB::fixup()
     return;
   }
   set_batch_transactions(true);
+}
+
 }  // namespace cryptonote

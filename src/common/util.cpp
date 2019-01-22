@@ -82,8 +82,8 @@ using namespace epee;
 #include <boost/asio.hpp>
 #include <openssl/sha.h>
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "util"
+#undef BELDEX_DEFAULT_LOG_CATEGORY
+#define BELDEX_DEFAULT_LOG_CATEGORY "util"
 
 namespace
 {

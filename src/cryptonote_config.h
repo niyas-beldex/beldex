@@ -52,7 +52,7 @@
 
 // MONEY_SUPPLY - total number coins to be generated
 #define MONEY_SUPPLY                                    ((uint64_t)(1500000000000000000))
-#define EMISSION_SPEED_FACTOR_PER_MINUTE                (20)
+#define EMISSION_SPEED_FACTOR_PER_MINUTE                (21)
 #define FINAL_SUBSIDY_PER_MINUTE                        ((uint64_t)3000000000) // 3 * pow(10, 9)
 
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 100
@@ -64,16 +64,15 @@
 // COIN - number of smallest units in one coin
 #define COIN                                            ((uint64_t)1000000000) // pow(10, 9)
 
-#define FEE_PER_KB_OLD                                  ((uint64_t)6000000000) // pow(10, 10)
-#define FEE_PER_KB                                      ((uint64_t)200000000) // 2 * pow(10, 9)
-#define FEE_PER_BYTE                                    ((uint64_t)300)
-#define DYNAMIC_FEE_PER_KB_BASE_FEE                     ((uint64_t)20000000000) // 2 * pow(10,9)
-#define DYNAMIC_FEE_PER_KB_BASE_BLOCK_REWARD            ((uint64_t)10000000000) // 10 * pow(10,12)
+#define FEE_PER_KB_OLD                                  ((uint64_t)6000000000) // pow(10, 8)
+#define FEE_PER_KB                                      ((uint64_t)2000000) // 2 * pow(10, 9)
+#define FEE_PER_BYTE                                    ((uint64_t)30000)
+#define DYNAMIC_FEE_PER_KB_BASE_FEE                     ((uint64_t)2000000) // 2 * pow(10,9)
+#define DYNAMIC_FEE_PER_KB_BASE_BLOCK_REWARD            ((uint64_t)1000000000) // 10 * pow(10,9)
 #define DYNAMIC_FEE_PER_KB_BASE_FEE_V5                  ((uint64_t)200000 * (uint64_t)CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2 / CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V5)
-#define DYNAMIC_FEE_REFERENCE_TRANSACTION_WEIGHT         ((uint64_t)3)
+#define DYNAMIC_FEE_REFERENCE_TRANSACTION_WEIGHT         ((uint64_t)30)
 
 #define ORPHANED_BLOCKS_MAX_COUNT                       100
-
 
 #define DIFFICULTY_TARGET_V2                            120  // seconds
 #define DIFFICULTY_TARGET_V1                            60  // seconds - before first fork
@@ -182,8 +181,8 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x13 ,0x30, 0xF5, 0x74 , 0x69, 0x14 , 0x41, 0x61, 0x17, 0x31, 0xB9, 0x82, 0x26, 0xA7, 0xA1, 0x14
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "013c01ff00028080a0b197bcc5c6050210c0c37104b2acc39de52fab1cb15592ab4a82455ac867919c5a4f6d6a20ecfb808090bbbad6adf00d023ac2e94be011968aab2ea2bce2075ca80a433710f3de68b76c0494ba25778ae82101648856ae2ee49f803cdc0b07337e845d179e9fc722c64c97291bb5d87692a128";
-    uint32_t const GENESIS_NONCE = 113366;
+    std::string const GENESIS_TX = "";
+    uint32_t const GENESIS_NONCE = 113367;
   }
 
   namespace stagenet

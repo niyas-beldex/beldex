@@ -4601,7 +4601,7 @@ Grand total:
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="8074"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line beldex wallet. It needs to connect to a beldex
 daemon to work correctly.
 WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation type="unfinished"></translation>
@@ -4941,7 +4941,7 @@ WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key
     </message>
     <message>
         <location filename="../src/wallet/wallet_rpc_server.cpp" line="3495"/>
-        <source>This is the RPC monero wallet. It needs to connect to a monero
+        <source>This is the RPC beldex wallet. It needs to connect to a beldex
 daemon to work correctly.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5054,7 +5054,7 @@ daemon to work correctly.</source>
     </message>
     <message>
         <location filename="../src/wallet/wallet_args.cpp" line="144"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line beldex wallet. It needs to connect to a beldex
 daemon to work correctly.</source>
         <translation type="unfinished"></translation>
     </message>

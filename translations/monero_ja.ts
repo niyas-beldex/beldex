@@ -3696,9 +3696,9 @@ Outputs per *: </source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="6787"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line beldex wallet. It needs to connect to a beldex
 daemon to work correctly.</source>
-        <translation>これはMoneroのコマンドラインウォレットです。別のMoneroデモンと接続する必要があります。</translation>
+        <translation>これはbeldexのコマンドラインウォレットです。別のbeldexデモンと接続する必要があります。</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="6801"/>
@@ -3939,7 +3939,7 @@ daemon to work correctly.</source>
     </message>
     <message>
         <location filename="../src/wallet/wallet_rpc_server.cpp" line="2870"/>
-        <source>This is the RPC monero wallet. It needs to connect to a monero
+        <source>This is the RPC beldex wallet. It needs to connect to a beldex
 daemon to work correctly.</source>
         <translation>これはMoneroのコマンドラインウォレットです。別のMoneroデモンと接続する必要があります。</translation>
     </message>
@@ -4047,7 +4047,7 @@ daemon to work correctly.</source>
     </message>
     <message>
         <location filename="../src/wallet/wallet_args.cpp" line="138"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line beldex wallet. It needs to connect to a beldex
 daemon to work correctly.</source>
         <translation>これはMoneroのコマンドラインウォレットです。別のMoneroデモンと接続する必要があります。</translation>
     </message>

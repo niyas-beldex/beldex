@@ -4687,12 +4687,12 @@ Sorties par *&#xa0;: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="8074"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line beldex wallet. It needs to connect to a monero
 daemon to work correctly.
-WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation>Ceci est le portefeuille monero en ligne de commande.
-Il a besoin de se connecter à un démon monero pour fonctionner correctement.
-ATTENTION : Ne réutilisez pas vos clés Monero avec un autre fork, À MOINS QUE ce fork inclue des mitigations contre la réutilisation des clés. Faire ceci nuira à votre confidentialité.</translation>
+WARNING: Do not reuse your beldex keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+        <translation>Ceci est le portefeuille beldex en ligne de commande.
+Il a besoin de se connecter à un démon beldex pour fonctionner correctement.
+ATTENTION : Ne réutilisez pas vos clés beldex avec un autre fork, À MOINS QUE ce fork inclue des mitigations contre la réutilisation des clés. Faire ceci nuira à votre confidentialité.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="8099"/>
@@ -5044,7 +5044,7 @@ ATTENTION : Ne réutilisez pas vos clés Monero avec un autre fork, À MOINS QUE
     </message>
     <message>
         <location filename="../src/wallet/wallet_rpc_server.cpp" line="3495"/>
-        <source>This is the RPC monero wallet. It needs to connect to a monero
+        <source>This is the RPC beldex wallet. It needs to connect to a monero
 daemon to work correctly.</source>
         <translation>Ceci est le portefeuille monero par RPC. Il a besoin de se
 connecter à un démon monero pour fonctionner correctement.</translation>
@@ -5158,7 +5158,7 @@ connecter à un démon monero pour fonctionner correctement.</translation>
     </message>
     <message>
         <location filename="../src/wallet/wallet_args.cpp" line="144"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line beldex wallet. It needs to connect to a monero
 daemon to work correctly.</source>
         <translation>Ceci est le portefeuille monero en ligne de commande. Il a besoin de se
 connecter à un démon monero pour fonctionner correctement.</translation>

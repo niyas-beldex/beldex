@@ -168,7 +168,7 @@ namespace config
       0x13 ,0x47, 0xD1, 0x81 , 0x71, 0x36 , 0x91, 0x71, 0x18, 0x41, 0x18, 0x83, 0x17, 0xB1, 0xC1, 0x81
     } }; // Bender's nightmare
   std::string const GENESIS_TX = "";
-  uint32_t const GENESIS_NONCE = 11334;
+  uint32_t const GENESIS_NONCE = 11335;
 
   namespace testnet
   {
@@ -181,8 +181,8 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x14 ,0x32, 0xA6, 0x76 , 0x59, 0x15 , 0x42, 0x62, 0x47, 0x51, 0xC9, 0x83, 0x26, 0xA7, 0xA1, 0x14
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "013c01ff00028080a0b197bcc5c60502bbc8d01b98594cb7a5e9357023e30a9f98f61e80b3085d6c4083e66e24eb18c0808090bbbad6adf00d022bcdcd7bb815a34600f0c83bdbe259f920ede83183899a8168bd7829c55c7f1f2101a2eed58fe76144a86f8aa9b61f286cd6535f0bcfdf752429296cef3ad22f3144";
-    uint32_t const GENESIS_NONCE = 11444;
+    std::string const GENESIS_TX = "";
+    uint32_t const GENESIS_NONCE = 11445;
   }
 
   namespace stagenet
@@ -196,8 +196,8 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x14 ,0x43, 0xA2, 0xA1 , 0x31, 0x84 , 0x42, 0x69, 0x68, 0x41, 0x11, 0x12, 0x19, 0xA1, 0xA5, 0x12
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "013c01ff00028080a0b197bcc5c605029ecfeb80b289e159c52befac717f18fe744bd5f0d296ec807d06dae8dd46cbe7808090bbbad6adf00d020d26ba45bbbb6d4221005db8b8edd5bfd4e1b1833fcf0142224ff560de60754a210140f582809e00b550b5ca8de1cc908afae3725f5239f7f96c9e4b9958bf540e66";
-    uint32_t const GENESIS_NONCE = 11338;
+    std::string const GENESIS_TX = "";
+    uint32_t const GENESIS_NONCE = 11339;
   }
 }
 

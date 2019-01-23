@@ -4603,7 +4603,7 @@ Grand total:
         <location filename="../src/simplewallet/simplewallet.cpp" line="8074"/>
         <source>This is the command line beldex wallet. It needs to connect to a beldex
 daemon to work correctly.
-WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+WARNING: Do not reuse your Beldex keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

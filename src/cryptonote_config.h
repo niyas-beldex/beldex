@@ -179,10 +179,10 @@ namespace config
     uint16_t const RPC_DEFAULT_PORT = 29092;
     uint16_t const ZMQ_RPC_DEFAULT_PORT = 29093;
     boost::uuids::uuid const NETWORK_ID = { {
-        0x14 ,0x30, 0xF5, 0x74 , 0x69, 0x14 , 0x41, 0x61, 0x17, 0x31, 0xB9, 0x82, 0x26, 0xA7, 0xA1, 0x14
+        0x54 ,0x31, 0xF6, 0x75 , 0x69, 0x14 , 0x41, 0x61, 0x17, 0x31, 0xB9, 0x82, 0x26, 0xA7, 0xA1, 0x14
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "013c01ff00028080a0b197bcc5c60502ffcb0a7e99088efa4556f41df986afaaafe4bfeb4da64521143a9f0b21c24e0f808090bbbad6adf00d028972f599ba386904d3c71de7f9cbe6619902d958aa3e3ace3d099cd9bac801db21015886c1b38dde578e4b1faa13ed09a81219e9b6e88cf6e0040e69fcd1c59ec72b";
-    uint32_t const GENESIS_NONCE = 113377;
+    std::string const GENESIS_TX = "";
+    uint32_t const GENESIS_NONCE = 114477;
   }
 
   namespace stagenet

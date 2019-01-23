@@ -165,10 +165,10 @@ namespace config
   uint16_t const RPC_DEFAULT_PORT = 19092;
   uint16_t const ZMQ_RPC_DEFAULT_PORT = 19093;
   boost::uuids::uuid const NETWORK_ID = { {
-      0x12 ,0x37, 0xF1, 0x71 , 0x61, 0x34 , 0x81, 0x61, 0x17, 0x31, 0x08, 0x82, 0x16, 0xA1, 0xA1, 0x80
+      0x13 ,0x47, 0xD1, 0x81 , 0x71, 0x36 , 0x91, 0x71, 0x18, 0x41, 0x18, 0x83, 0x17, 0xB1, 0xC1, 0x81
     } }; // Bender's nightmare
-  std::string const GENESIS_TX = "013c01ff00028080a0b197bcc5c60502481e0cfbf14d77cfb901b5539cb637b53182121e8b6c814e54c1cd3864e98574808090bbbad6adf00d024122a45e6cbc4cb8a60349e4c0f573b845a722394217fe22efbb7b597679ec4521014e3f66620e3b0f62a44a64578ef7362404e22fbf251efdf9b7cd3cf4439d2185";
-  uint32_t const GENESIS_NONCE = 113345;
+  std::string const GENESIS_TX = "";
+  uint32_t const GENESIS_NONCE = 11334;
 
   namespace testnet
   {
@@ -179,10 +179,10 @@ namespace config
     uint16_t const RPC_DEFAULT_PORT = 29092;
     uint16_t const ZMQ_RPC_DEFAULT_PORT = 29093;
     boost::uuids::uuid const NETWORK_ID = { {
-        0x54 ,0x31, 0xF6, 0x75 , 0x69, 0x14 , 0x41, 0x61, 0x17, 0x31, 0xB9, 0x82, 0x26, 0xA7, 0xA1, 0x14
+        0x14 ,0x32, 0xA6, 0x76 , 0x59, 0x15 , 0x42, 0x62, 0x47, 0x51, 0xC9, 0x83, 0x26, 0xA7, 0xA1, 0x14
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "013c01ff00028080a0b197bcc5c60502ce4f3ab247ed0ca3def0e46a71e8a310050f94ab26dffa7a62a5365d41d89ab8808090bbbad6adf00d020d4631b387c26a7038415a5410a76e595a2b2edc23302c5ce7e2f0b1528c00a221010ae2d89bf2b2f04e36212ab00339e9dc5d14d7a63519e90ec648d6fd85331830";
-    uint32_t const GENESIS_NONCE = 114477;
+    std::string const GENESIS_TX = "";
+    uint32_t const GENESIS_NONCE = 11447;
   }
 
   namespace stagenet
@@ -194,10 +194,10 @@ namespace config
     uint16_t const RPC_DEFAULT_PORT = 39092;
     uint16_t const ZMQ_RPC_DEFAULT_PORT = 39093;
     boost::uuids::uuid const NETWORK_ID = { {
-        0x12 ,0x33, 0xF2, 0xA1 , 0x21, 0x74 , 0x41, 0x68, 0x67, 0x31, 0x01, 0x12, 0x19, 0xA1, 0xA5, 0x12
+        0x14 ,0x43, 0xA2, 0xA1 , 0x31, 0x84 , 0x42, 0x69, 0x68, 0x41, 0x11, 0x12, 0x19, 0xA1, 0xA5, 0x12
       } }; // Bender's daydream
     std::string const GENESIS_TX = "";
-    uint32_t const GENESIS_NONCE = 113388;
+    uint32_t const GENESIS_NONCE = 11338;
   }
 }
 

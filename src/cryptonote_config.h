@@ -181,7 +181,7 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x54 ,0x31, 0xF6, 0x75 , 0x69, 0x14 , 0x41, 0x61, 0x17, 0x31, 0xB9, 0x82, 0x26, 0xA7, 0xA1, 0x14
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "";
+    std::string const GENESIS_TX = "013c01ff00028080a0b197bcc5c60502ce4f3ab247ed0ca3def0e46a71e8a310050f94ab26dffa7a62a5365d41d89ab8808090bbbad6adf00d020d4631b387c26a7038415a5410a76e595a2b2edc23302c5ce7e2f0b1528c00a221010ae2d89bf2b2f04e36212ab00339e9dc5d14d7a63519e90ec648d6fd85331830";
     uint32_t const GENESIS_NONCE = 114477;
   }
 

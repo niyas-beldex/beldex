@@ -52,7 +52,7 @@
 
 // MONEY_SUPPLY - total number coins to be generated
 #define MONEY_SUPPLY                                    ((uint64_t)(1500000000000000000))
-#define EMISSION_SPEED_FACTOR_PER_MINUTE                (24)
+#define EMISSION_SPEED_FACTOR_PER_MINUTE                (27)
 #define FINAL_SUBSIDY_PER_MINUTE                        ((uint64_t)3000000000) // 3 * pow(10, 9)
 
 #define CRYPTONOTE_REWARD_BLOCKS_WINDOW                 100

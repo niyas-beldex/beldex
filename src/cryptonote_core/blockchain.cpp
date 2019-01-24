@@ -593,7 +593,6 @@ block Blockchain::pop_block_from_blockchain()
   }
 
   // make sure the hard fork object updates its current version
-  m_hardfork->on_block_popped(1);
 
   // return transactions from popped block to the tx_pool
   for (transaction& tx : popped_txs)

@@ -95,7 +95,7 @@ static cryptonote::block mkblock(const HardFork &hf, uint64_t height, uint8_t vo
 TEST(major, Only)
 {
   TestDB db;
-  HardFork hf(db, 1, 0, 0, 0, 1, 0); // no voting
+  HardFork hf(db, 0, 0, 0, 0, 1); // no voting
 
   //                      v  h  t
   ASSERT_TRUE(hf.add_fork(1, 0, 0));
